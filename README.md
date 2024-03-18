@@ -20,12 +20,10 @@ This is the authors' official PyTorch implementation for SDE-EDG method in the *
 Rotated Gaussian experiment
 ```
 python main.py --gpu_ids 0 --data_name RotatedGaussian --data_path '/dataset/Rotated_Gaussian/rotated-gaussian.pkl' --num_classes 2 --data_size '[1,2]' --source-domains 22 --intermediate-domains 3 --target-domains 5 --mode train --model-func Toy_Linear_FE --feature-dim 32 --epochs 80 --iterations 50 --train_batch_size 64 --eval_batch_size 50 --test_epoch -1 --algorithm SDE --seed 0 --save_path './logs/' --record --mlp-depth 2 --mlp-width 32
-
 ```
 
 Rotated MNIST experiment
 ```
-
 python main.py --gpu_ids 0 --data_name RMNIST --data_path '/dataset/' --num_classes 10 --data_size '[1, 28, 28]' --source-domains 10 --intermediate-domains 3 --target-domains 6 --mode train --model-func MNIST_CNN --feature-dim 512 --epochs 50 --iterations 100 --train_batch_size 48 --eval_batch_size 48 --test_epoch -1 --algorithm SDE --seed 0 --save_path './logs/' --record --mlp-depth 2 --mlp-width 512
 ```
 
