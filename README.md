@@ -59,7 +59,7 @@ python -m pdb main.py --gpu_ids 0 --data_name ToySine --data_path '/dataset/Toy_
 
 
 ## Acknowledgement
-This code is implemented based on the [domainbed](https://github.com/facebookresearch/DomainBed) code. and [LSSAE] (https://github.com/WonderSeven/LSSAE) code.
+This code is implemented based on the [domainbed](https://github.com/facebookresearch/DomainBed) code and [LSSAE](https://github.com/WonderSeven/LSSAE) code.
 
 ## Citation
 If you use this code for your research, please consider citing:
