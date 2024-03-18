@@ -1,8 +1,8 @@
 # Latent Trajectory Learning for Limited Timestamps under Distribution Shift over Time
 
-[__[Paper]__](https://openreview.net/forum?id=bTMMNT7IdW) 
+[__[Paper]__](https://openreview.net/pdf?id=bTMMNT7IdW) 
 &nbsp; 
-This is the authors' official PyTorch implementation for SDE-EDG method in the **ICLR 2024 (Oral)** paper [Latent Trajectory Learning for Limited Timestamps under Distribution Shift over Time](https://openreview.net/forum?id=bTMMNT7IdW).
+This is the authors' official PyTorch implementation for SDE-EDG method in the **ICLR 2024 (Oral)** paper [Latent Trajectory Learning for Limited Timestamps under Distribution Shift over Time](https://openreview.net/pdf?id=bTMMNT7IdW).
 
 
 ## Prerequisites
